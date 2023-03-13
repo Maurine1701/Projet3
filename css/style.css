@@ -25,6 +25,32 @@ body {
     box-sizing: border-box;
 }
 
+/****** Header ***********/
+nav,
+ul,
+li,
+a {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu {
+    width: 100%;
+
+}
+
+.logo-booki {
+    width: 61.09px;
+    height: 19px;
+    padding: 30px 0 30px 0;
+
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
