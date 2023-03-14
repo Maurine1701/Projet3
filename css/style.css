@@ -70,7 +70,7 @@ ul {
 
 }
 
-.hebergements-nav:active {
+.hebergements-nav:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
@@ -81,6 +81,11 @@ ul {
     position: relative;
     font-size: 16px;
     color: #000000;
+}
+
+.activites-nav:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
 }
 
 /****** barre de recherche ***********/
