@@ -48,11 +48,11 @@ ul {
 }
 
 
-.menu {
+/* .menu {
     width: 100%;
 
 
-}
+} */
 
 .logo-booki {
     /* width: 61.09px;
@@ -93,10 +93,10 @@ ul {
 
 .formulaire-recherche {
     display: flex;
-    flex-direction: row;
+/*     flex-direction: row;
     padding: 0px;
     gap: 24px;
-    width: 377px;
+    width: 377px; */
     height: 49px;
 }
 
@@ -106,13 +106,26 @@ ul {
     background-color: #0065FC;
 }
 
-.icone-recherche {
+/* .icone-recherche {
     background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
     width: 50px;
     height: 49px;
     text-align: center;
     margin: auto;
+} */
+
+.icone-recherche {
+
+    background-color: #F2F2F2;
+    color: black;
+    font-size: larger;
+    border-width: 30px;
+    border-radius: 15px 0px 0px 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 17px;
 }
 
 /****** filtres ***********/
