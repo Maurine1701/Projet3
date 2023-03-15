@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -136,6 +137,10 @@ button {
     padding-right: 15px;
 }
 
+.économique:hover {
+    background-color: #DEEBFF;
+}
+
 .familial {
     display: flex;
     flex-direction: row;
@@ -148,6 +153,10 @@ button {
     gap: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.familial:hover {
+    background-color: #DEEBFF;
 }
 
 .romantique {
@@ -164,6 +173,10 @@ button {
     padding-right: 15px;
 }
 
+.romantique:hover {
+    background-color: #DEEBFF;
+}
+
 .nos-pepites {
     display: flex;
     flex-direction: row;
@@ -176,6 +189,10 @@ button {
     gap: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.nos-pepites:hover {
+    background-color: #DEEBFF;
 }
 
 /* zone-ibfo */
@@ -329,6 +346,12 @@ button {
     }
 
     header {}
+
+    .hebergements-nav:hover {
+        border-top: 2px solid #0065FC;
+        color: #0065FC;
+        padding-top: 14px;
+    }
 
 }
 
