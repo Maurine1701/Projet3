@@ -462,12 +462,15 @@ a,
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        width: 100%;
+        gap: 30px;
 
     }
 
     .populaires-cards .card {
         width: 100%;
+        display: flex;
+        justify-content: space-between;
 
     }
 
