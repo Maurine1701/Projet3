@@ -374,7 +374,6 @@ button,
     font-size: 22px;
     margin: 65px 40px 30px 30px;
     width: 100%;
-
 }
 
 .activites {
@@ -394,14 +393,12 @@ button,
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     display: flex;
     flex-direction: column;
-
 }
 
 .activites-row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .subtitle-activites h4 {
@@ -417,9 +414,8 @@ button,
     object-fit: cover;
     height: 380px;
     max-width: 295px;
-
-
 }
+
 
 /* Footer */
 
@@ -469,7 +465,7 @@ button,
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1360px) and (min-width : 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
     }
