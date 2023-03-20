@@ -1,4 +1,5 @@
 /****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -31,6 +32,7 @@ main {
 }
 
 /****** Header ***********/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -127,7 +129,7 @@ button,
     margin-bottom: 20px;
 }
 
-.économique {
+.filtres-nav {
     display: flex;
     flex-direction: row;
     border: 1px solid #F2F2F2;
@@ -141,61 +143,7 @@ button,
     padding-right: 15px;
 }
 
-.économique:hover {
-    background-color: #DEEBFF;
-}
-
-.familial {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #F2F2F2;
-    border-radius: 30px;
-    height: 49px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.familial:hover {
-    background-color: #DEEBFF;
-}
-
-.romantique {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #F2F2F2;
-    border-radius: 30px;
-    height: 49px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.romantique:hover {
-    background-color: #DEEBFF;
-}
-
-.nos-pepites {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #F2F2F2;
-    border-radius: 30px;
-    height: 49px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.nos-pepites:hover {
+.filtres-nav:hover {
     background-color: #DEEBFF;
 }
 
@@ -220,6 +168,7 @@ button,
 }
 
 /* cards */
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -254,6 +203,7 @@ button,
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -267,14 +217,9 @@ button,
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
-}
-
-.hebergements-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .hebergements-cards {
@@ -299,7 +244,7 @@ button,
 
 }
 
-.card-content {
+.hebergements-cards .card-content {
     width: 100%;
     padding-left: 15px;
     display: flex;
@@ -324,6 +269,7 @@ button,
 
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -373,13 +319,6 @@ button,
 .section-title-activites {
     font-size: 22px;
     margin: 65px 40px 30px 30px;
-    width: 100%;
-}
-
-.activites {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
 }
 
 .activites-cards {
@@ -391,8 +330,6 @@ button,
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    display: flex;
-    flex-direction: column;
 }
 
 .activites-row {
@@ -401,7 +338,7 @@ button,
     justify-content: space-evenly;
 }
 
-.subtitle-activites h4 {
+.subtitle-activites {
     margin: 0;
     font-size: 16px;
     font-weight: 700;
@@ -465,7 +402,8 @@ button,
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1360px) and (min-width : 1024px) {
+
+@media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -482,13 +420,12 @@ button,
     .populaires-cards {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         width: 100%;
-        gap: 30px;
-
     }
 
     .populaires-cards .card {
-        width: 100%;
+        max-width: 225px;
         display: flex;
         justify-content: space-between;
 
@@ -502,35 +439,24 @@ button,
         font-size: 13px;
     }
 
-    .populaires-cards .card-content {
-        padding-left: 15px;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-    }
-
-    .subtitle-activites h4 {
-        margin: 0;
-        font-size: 10.5px;
-        font-weight: 700;
-        padding: 20px 19px 20px 19px;
-    }
-
     .footer-row {
-        display: flex;
-        flex-direction: row;
-        align-content: flex-start;
-        padding-top: 20px;
-        padding-left: 20px;
         gap: 90px;
     }
 
 }
 
-
+@media (max-width: 1360px) and (min-width : 1024px) {
+    .subtitle-activites {
+        margin: 0;
+        font-size: 10.5px;
+        font-weight: 700;
+        padding: 20px 19px 20px 19px;
+    }
+}
 
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
     /* ... */
 }
