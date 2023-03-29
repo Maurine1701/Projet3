@@ -175,6 +175,10 @@ input[type="search"] {
     align-items: center;
 }
 
+.icone-info {
+    font-size: small;
+}
+
 /* cards */
 
 .section-title {
